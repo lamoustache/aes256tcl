@@ -1,7 +1,8 @@
 AES256 encryption with Tcl
 ==========================
 
-Two simple scripts to encrypt and decrypt files using aes256. The scripts are based on aes.tcl, the Tcl implementatiom of aes part of tcllib.
+Two simple scripts to encrypt and decrypt files using aes256. The scripts are based on [aes.tcl](https://github.com/tcltk/tcllib/blob/master/modules/aes/aes.tcl), the aes Tcl implementation part of [tcllib](http://tcllib.sourceforge.net/doc/aes.html)
+
 
     encrypt.tcl 
     decrypt.tcl
