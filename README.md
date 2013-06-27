@@ -47,6 +47,6 @@ To decrypt a file specify the input file, the output file, the key and the iv as
 
 
 Notes about OpenSSL
-===================
+-------------------
 
 Todo
