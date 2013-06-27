@@ -20,7 +20,7 @@ proc genIv {} {
         append iv [format {%c} [expr {round(rand() * 255)}]];
     }
 set bytes_iv [ binary format A* $iv ]
-binary scan $bytes_iv H* hex_iv ]
+binary scan $bytes_iv H* hex_iv
 puts "IV: $hex_iv"
 return $bytes_iv
 }
