@@ -13,10 +13,10 @@ if {$argc != 4} {
 	}
 
 set input [open [lindex $argv 0] r]
-fconfigure $input -encoding binary
+fconfigure $input -translation binary
 set data [read -nonewline $input]
 set data [aes::aes -mode cbc -dir decrypt -iv $iv -key $key $data]
 set output [open [lindex $argv 1] w]
-fconfigure $output -encoding binary
+fconfigure $output -translation binary
 puts -nonewline $output $data
 close $output
