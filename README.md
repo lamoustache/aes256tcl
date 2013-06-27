@@ -14,7 +14,7 @@ encrypt.tcl is used to encrypt files.
 
 To encrypt a file specify the input file and the output file as such:
 
-    [ moustache@antil0 cat example/input.dec
+    [ moustache@antil0p ] ~/code/aes256tcl > cat example/input.dec
     This is a top secret file!
 
     [ moustache@antil0p ] ~/code/aes256tcl > ./encrypt.tcl example/input.dec example/output.enc
